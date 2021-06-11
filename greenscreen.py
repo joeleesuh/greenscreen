@@ -32,11 +32,6 @@ def redscreen(main_filename, back_filename):
     return image
 
 def main():
-    """
-    Run your desired image manipulation functions here.
-    You should store the return value (image) and then
-    call .show() to visualize the output of your program.
-    """
     original_stop = SimpleImage('stop.png')
     original_stop.show()
 
